@@ -1,0 +1,179 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4caf50;
+    color: white;
+    text-align: center;
+    border: none 0px 50px 0px 50px; 
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 0 0 50px 50px;
+    height: 100px;
+    padding: 20px 0px 20px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 800px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.product {
+    position: center;
+    align-items: center;
+    width: 760px; height: 150px;
+    margin: 10px 0px; 
+    padding: 10px;
+    border: 10px none;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    border: 50px none;
+    border-radius: 50px 50px 0px 0px;
+    background: #333;
+    color: white;
+    width: 100%;
+    height: 25px;
+    align-self: bottom;
+    align-content: bottom;
+}
+
+.img {
+    position: center;
+    align-content: center;
+    background-image: url('main2.png');
+    background-size: 100% 100%;
+    height: 500px; width: 800px;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+details {
+    background-color: white;
+    border-radius: 15px;
+    text-align:center;
+    width:100%;
+    height:100%;
+}
+
+.flag {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.en {
+    position: left;
+    align-content: center;
+    background-image: url('EN.png');
+    background-size: 100% 100%;
+    height: 150px; width: 200px;
+    border: solid;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fr {
+    position: right;
+    align-content: center;
+    background-image: url('fr.svg');
+    background-size: 100% 100%;
+    height: 150px; width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.cn {
+    position: center;
+    align-content: center;
+    background-image: url('cn.png');
+    background-size: 100% 100%;
+    height: 150px; width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.ne {
+    position: center;
+    align-content: center;
+    background-image: url('ne.png');
+    background-size: 100% 100%;
+    height: 150px; width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fl {
+    position: center;
+    align-content: center;
+    background-image: url('fl.png');
+    background-size: 100% 100%;
+    height: 150px; width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fl-text {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flag-text(disabled) {
+    text-shadow: 2px 2px 2px black;
+}
